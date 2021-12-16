@@ -337,6 +337,11 @@ class Contract
         return $this->ethabi;
     }
 
+    public function setEthabi(Ethabi $ethabi)
+    {
+        $this->ethabi = $ethabi;
+    }
+    
     /**
      * getEth
      * 
